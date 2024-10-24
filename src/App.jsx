@@ -14,7 +14,7 @@ import Politics from './pages/Politics';
 import State from './pages/State';
 import International from './pages/International';
 import CryptoChart from './components/Crypto';
-import { CryptoProvider } from './Providers/crypto/CryptoContext';
+import { CryptoProvider } from './providers/crypto/CryptoContext';
 
 
 const App = () => {
