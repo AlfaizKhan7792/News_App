@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import CryptoContext from "../Providers/crypto/CryptoContext";
+import CryptoContext from "../providers/crypto/CryptoContext";
 
 const CryptoChart = () => {
   const { Crypto, dispatch } = useContext(CryptoContext);
