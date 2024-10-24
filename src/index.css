@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all ease-in-out 0.2s;
+}
+
+.bg-right{
+  background-color: #C7BBEA;
+  color: #2F4F7F;
+  /* background-color: #FFA07A; */
+}
+.bg-left{
+  /* background-color: #ACFFAC; */
+  background-color: #2F4F7F;
+  color:#C7BBEA ;
+}
+
+nav{
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#btnTheme{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 50%;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sliderImage{
+  object-fit: contain;
+  height: 50vh;
+}
+
+/* #newsImage{
+  height: 60vh;
+  object-fit: contain;
+} */
+
+.right > img{
+  mix-blend-mode: multiply;
+}
+
+
+/* WeatherDays start */
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.weather-card {
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.weather-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.weather-card p {
+  margin: 5px 0;
+}
+/* WeatherDays end */
